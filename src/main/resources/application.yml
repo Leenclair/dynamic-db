@@ -1,0 +1,13 @@
+spring:
+  master:
+    datasource:
+      jdbc-url: jdbc:h2:tcp://localhost/~/dynamictest1
+      username: sa
+      password:
+      driver-class-name: org.h2.Driver
+  slave:
+    datasource:
+      jdbc-url: jdbc:h2:tcp://localhost/~/dynamictest2
+      username: sa
+      password:
+      driver-class-name: org.h2.Driver

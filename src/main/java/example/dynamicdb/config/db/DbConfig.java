@@ -64,8 +64,8 @@ public class DbConfig {
     }
 
     @Bean
-    public PlatformTransactionManager transactionManager(LazyConnectionDataSourceProxy routingDataSource){
-        return new DataSourceTransactionManager(routingDataSource);
+    public PlatformTransactionManager transactionManager(LazyConnectionDataSourceProxy lazyDataSource){
+        return new DataSourceTransactionManager(lazyDataSource);
     }
 
     @Bean

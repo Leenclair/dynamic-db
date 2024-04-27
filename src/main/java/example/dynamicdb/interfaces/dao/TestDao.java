@@ -1,5 +1,6 @@
 package example.dynamicdb.interfaces.dao;
 
+import example.dynamicdb.constants.CustomerType;
 import example.dynamicdb.domain.Test;
 import org.apache.ibatis.annotations.Mapper;
 
